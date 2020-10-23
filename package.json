@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build src/styles.css -o public/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glider-js": "^1.7.3",
+    "resize-optimize-images": "^1.1.2",
+    "tailwindcss": "^1.9.2"
+  }
+}
